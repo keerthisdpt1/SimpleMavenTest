@@ -19,6 +19,7 @@ public class TC_BaseClass {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	driver.get("https://demo.guru99.com/v4/");
+	System.out.println("for commit");
 
 	}
 
